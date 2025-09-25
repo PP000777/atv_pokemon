@@ -22,27 +22,27 @@ export default function Pokemons({navigation}){
                 <Cartao 
                     nome={"Charmander"}
                     imagem={require("../imagens/charmander.png")}
-                    onPress={()=>{navigation.navigate("Bulbassauro")}}
+                    onPress={()=>{navigation.navigate("Charmander")}}
                 />
                 <Cartao 
                     nome={"Squirtle"}
                     imagem={require("../imagens/Squirtle.png")}
-                    onPress={()=>{navigation.navigate("Bulbassauro")}}
+                    onPress={()=>{navigation.navigate("Squirtle")}}
                 />
                 <Cartao 
                     nome={"Zubat"}
                     imagem={require("../imagens/zubat.png")}
-                    onPress={()=>{navigation.navigate("Bulbassauro")}}
+                    onPress={()=>{navigation.navigate("Zubat")}}
                 />
                 <Cartao 
                     nome={"Sandslash"}
                     imagem={require("../imagens/Sandslash.png")}
-                    onPress={()=>{navigation.navigate("Bulbassauro")}}
+                    onPress={()=>{navigation.navigate("Sandslash")}}
                 />
                 <Cartao 
                     nome={"Charmeleon"}
                     imagem={require("../imagens/Charmeleon.png")}
-                    onPress={()=>{navigation.navigate("Bulbassauro")}}
+                    onPress={()=>{navigation.navigate("Charmeleon")}}
                 />
             </View>            
         </ScrollView>
